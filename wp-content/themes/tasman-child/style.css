@@ -1,0 +1,7 @@
+/*
+Theme Name: Tasman Child
+Template: tasman
+*/
+.main-navigation ul.menu .menu-item.search-menu {
+	display: none;
+}

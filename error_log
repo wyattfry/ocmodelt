@@ -1,0 +1,55 @@
+[29-Jul-2018 04:55:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_home_path() in /home/wyatruoy/public_html/modeltoc/wp-content/themes/tasman-child/footer.php:46
+Stack trace:
+#0 /home/wyatruoy/public_html/modeltoc/wp-includes/template.php(688): require_once()
+#1 /home/wyatruoy/public_html/modeltoc/wp-includes/template.php(647): load_template('/home/wyatruoy/...', true)
+#2 /home/wyatruoy/public_html/modeltoc/wp-includes/general-template.php(76): locate_template(Array, true)
+#3 /home/wyatruoy/public_html/modeltoc/wp-content/themes/tasman/index.php(54): get_footer()
+#4 /home/wyatruoy/public_html/modeltoc/wp-includes/template-loader.php(74): include('/home/wyatruoy/...')
+#5 /home/wyatruoy/public_html/modeltoc/wp-blog-header.php(19): require_once('/home/wyatruoy/...')
+#6 /home/wyatruoy/public_html/modeltoc/index.php(17): require('/home/wyatruoy/...')
+#7 {main}
+  thrown in /home/wyatruoy/public_html/modeltoc/wp-content/themes/tasman-child/footer.php on line 46
+[29-Jul-2018 04:55:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_home_path() in /home/wyatruoy/public_html/modeltoc/wp-content/themes/tasman-child/footer.php:46
+Stack trace:
+#0 /home/wyatruoy/public_html/modeltoc/wp-includes/template.php(688): require_once()
+#1 /home/wyatruoy/public_html/modeltoc/wp-includes/template.php(647): load_template('/home/wyatruoy/...', true)
+#2 /home/wyatruoy/public_html/modeltoc/wp-includes/general-template.php(76): locate_template(Array, true)
+#3 /home/wyatruoy/public_html/modeltoc/wp-content/themes/tasman/index.php(54): get_footer()
+#4 /home/wyatruoy/public_html/modeltoc/wp-includes/template-loader.php(74): include('/home/wyatruoy/...')
+#5 /home/wyatruoy/public_html/modeltoc/wp-blog-header.php(19): require_once('/home/wyatruoy/...')
+#6 /home/wyatruoy/public_html/modeltoc/index.php(17): require('/home/wyatruoy/...')
+#7 {main}
+  thrown in /home/wyatruoy/public_html/modeltoc/wp-content/themes/tasman-child/footer.php on line 46
+[29-Jul-2018 04:55:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_home_path() in /home/wyatruoy/public_html/modeltoc/wp-content/themes/tasman-child/footer.php:46
+Stack trace:
+#0 /home/wyatruoy/public_html/modeltoc/wp-includes/template.php(688): require_once()
+#1 /home/wyatruoy/public_html/modeltoc/wp-includes/template.php(647): load_template('/home/wyatruoy/...', true)
+#2 /home/wyatruoy/public_html/modeltoc/wp-includes/general-template.php(76): locate_template(Array, true)
+#3 /home/wyatruoy/public_html/modeltoc/wp-content/themes/tasman/index.php(54): get_footer()
+#4 /home/wyatruoy/public_html/modeltoc/wp-includes/template-loader.php(74): include('/home/wyatruoy/...')
+#5 /home/wyatruoy/public_html/modeltoc/wp-blog-header.php(19): require_once('/home/wyatruoy/...')
+#6 /home/wyatruoy/public_html/modeltoc/index.php(17): require('/home/wyatruoy/...')
+#7 {main}
+  thrown in /home/wyatruoy/public_html/modeltoc/wp-content/themes/tasman-child/footer.php on line 46
+[29-Jul-2018 04:57:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_home_path() in /home/wyatruoy/public_html/modeltoc/wp-content/themes/tasman-child/footer.php:46
+Stack trace:
+#0 /home/wyatruoy/public_html/modeltoc/wp-includes/template.php(688): require_once()
+#1 /home/wyatruoy/public_html/modeltoc/wp-includes/template.php(647): load_template('/home/wyatruoy/...', true)
+#2 /home/wyatruoy/public_html/modeltoc/wp-includes/general-template.php(76): locate_template(Array, true)
+#3 /home/wyatruoy/public_html/modeltoc/wp-content/themes/tasman/index.php(54): get_footer()
+#4 /home/wyatruoy/public_html/modeltoc/wp-includes/template-loader.php(74): include('/home/wyatruoy/...')
+#5 /home/wyatruoy/public_html/modeltoc/wp-blog-header.php(19): require_once('/home/wyatruoy/...')
+#6 /home/wyatruoy/public_html/modeltoc/index.php(17): require('/home/wyatruoy/...')
+#7 {main}
+  thrown in /home/wyatruoy/public_html/modeltoc/wp-content/themes/tasman-child/footer.php on line 46
+[10-Sep-2018 08:10:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_enqueue_syle() in /home/wyatruoy/public_html/modeltoc/wp-content/themes/tasman-child/functions.php:5
+Stack trace:
+#0 /home/wyatruoy/public_html/modeltoc/wp-includes/class-wp-hook.php(286): enqueue_child_theme_styles('')
+#1 /home/wyatruoy/public_html/modeltoc/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /home/wyatruoy/public_html/modeltoc/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home/wyatruoy/public_html/modeltoc/wp-includes/script-loader.php(1447): do_action('wp_enqueue_scri...')
+#4 /home/wyatruoy/public_html/modeltoc/wp-includes/class-wp-hook.php(286): wp_enqueue_scripts('')
+#5 /home/wyatruoy/public_html/modeltoc/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#6 /home/wyatruoy/public_html/modeltoc/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#7 /home/wyatruoy/public_html/modeltoc/wp-includes/general-template.php(2614): do_action('wp_head')
+#8 /home/wyatruoy/public_html/modeltoc/wp- in /home/wyatruoy/public_html/modeltoc/wp-content/themes/tasman-child/functions.php on line 5
